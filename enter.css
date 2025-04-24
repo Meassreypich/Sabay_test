@@ -1,0 +1,308 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 221, 221);
+}
+/* header of webside */
+.header-container-full{
+    width: 100%;
+    height: 125px;
+    background-color: black;
+}
+.header-container{
+    width: 75%;
+    /* background-color: aliceblue; */
+    height: 100%;
+    margin: auto;
+}
+.header-container img{
+    height: 80%;
+    margin-top: 10px;
+}
+/* menu */
+.menu-full{
+    width:100% ;
+    background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.menu-container{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    /* background-color: black; */
+}
+.menu-container ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+.menu-container ul li{
+    float: left;
+}
+.menu-container ul li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-family:'Koulen';
+    opacity: 0.8;
+}
+.menu-container ul li a:hover{
+    opacity: 1;
+    background-color: rgb(164, 40, 40);
+}
+/* homepage */
+.homepage-full{
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    /* background-color: violet; */
+}
+.homepage-container1{
+    width: 70%;
+    height:100% ;
+    background-color: aqua;
+    float: left;
+}
+.title-box{
+    width: 70%;
+    /* background-color: red; */
+    height: 40px;
+    border-bottom: 5px solid red;
+}
+.title-box .title{
+    width: 125px;
+    height: 42px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.title-box .title p{
+    font-family: "Koulen";
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 18px;
+}
+.homepage-container1 .upper{
+    width: 100%;
+    height: 35%;
+    background-color: chartreuse;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hot-news{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hot-news .box-news{
+    width: 48%;
+    height: 100%;
+    background-color: white;
+}
+.box-news .image{
+    width: 100%;
+    height: 70%;
+    
+}
+.box-news .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.box-news .image img:hover{
+    transform: scale(1.1);
+}
+.box-news .des{
+    width: 100%;
+    height: 30%;
+}
+.box-news .des h3{
+    font-family: 'battambang';
+    color: black;
+    /* text-align: center; */
+    font-weight: 550;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.sub-news{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-content{
+    width: 33%;
+    height: 34%;
+    background-color: white;
+
+}
+.item-content .image{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+.item-content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.item-content .image img:hover{
+    transform: scale(1.1);
+}
+.item-content .des{
+    width: 100%;
+    height: 35%;
+
+}
+.item-content .des h4{
+    font-family: 'battambang';
+    color: black;
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: left;
+    line-height: 25px;
+}
+.homepage-container2{
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    float: left;
+}
+.homepage-container2 h2{
+    color: rgb(125, 125, 125);
+    margin-top: 2px;
+    font-family: 'koulen';
+    font-size: 23px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.news-box{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.news-box .image{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.news-box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news-box .des{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.news-box .des h5{
+    font-family: 'battambang';
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 100px;
+}
+.footer .footer-container{
+    width: 75%;
+    height: 100%;
+    /* background-color: azure; */
+    margin: auto;
+}
+.footer1{
+    width: 30%;
+    height: 100%;
+    float: left;
+    /* background-color: aquamarine; */
+}
+.footer1:nth-child(2){
+    width: 40%;
+    /* height: 100%;
+    background-color: red; */
+}
+.footer1:nth-child(3){
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.footer1:first-child img{
+    margin-top: 30px;
+    height: 60px;
+}  
+.footer1:first-child p{
+    color: rgba(240, 255, 255, 0.812);
+    font-size: 15px;
+    font-family: 'battambang';
+} 
+.footer1:nth-child(2) h2{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'koulen';
+    color:  rgba(240, 255, 255, 0.812);
+    font-weight: 500;
+}
+.footer1:nth-child(2) p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'battambang';
+    color:  rgba(240, 255, 255, 0.812);
+}
+.footer1:nth-child(2) img{
+    height: 40px;
+    margin-left: 20px; 
+}
+.footer1:nth-child(3) h2{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'koulen';
+    color:  rgba(240, 255, 255, 0.812);
+    font-weight: 500;
+}
+.footer1:nth-child(3) .fa-brands{
+    color:  rgba(240, 255, 255, 0.812);
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer1:nth-child(3) p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'battambang';
+    color:  rgba(240, 255, 255, 0.812);
+}
